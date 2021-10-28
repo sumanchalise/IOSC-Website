@@ -1,21 +1,134 @@
-//deepak
-
 <!DOCTYPE html>
 <html lang="en">
-<style>
-
-
-</style>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Contact Us- IOSC</title>
-</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+        * {
+        margin: 0;
+            padding: 0;
+            }
+      h1 {
+        text-align: center;
+      }
+      /* #menu {
+        background-color: rgb(97, 197, 247);
+        color: rgb(214, 214, 214);
+        height: 32px;
+        padding-top: 5px;
+      }
+ 
+      #menu li {
+        display: inline-block;
+        width: 100px;
+        height: 32px;
+        text-align: center;
+        font-family: 'K2D', sans-serif;
+      }
 
-<body>
+      #menu li:hover {
+        color: rgb(129, 38, 240);
+      } */
+     .ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
 
-</body>
+      }
 
+      .li{
+          display: inline;
+      }
+
+      .social-media {
+        height: 100vh;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        gap: 15px;
+        grid-auto-flow: column;
+      }
+      .social-media .handle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #fff;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0, 0px);
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+      }
+      .social-media div .fa {
+        color: #000;
+        font-size: 30px;
+        line-height: 60px;
+        transition: 0.5s;
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+  </head>
+
+  <body>
+    <h1
+      style="
+       font-family: 'K2D', sans-serif;
+        font-size: 75px;
+        color: rgb(245, 167, 167);"
+    >
+      IOSC
+    </h1>
+
+    <ul id="menu">
+      <a href="../index.html"><li>Home</li></a>
+      <a href="events.html"><li>Posts/Events</li></a>
+      <a href="about.html"><li>About us</li></a>
+    </ul>
+
+    <h1
+      style="
+       font-family: 'K2D', sans-serif;
+        font-size: 75px; "
+    >
+      Contacts
+    </h1>
+    <div class="social-media">
+      <div class="handle">
+        <a href="mailto:iosc@indrenicollege.edu.np" target="_blank"
+          ><i class="fa fa-envelope"></i
+        ></a>
+      </div>
+
+      <div class="handle">
+        <a href="#" target="_blank"
+          ><i class="fa fa-facebook"></i
+
+        ></a>
+      </div>
+
+      <div class="handle">
+        <a href="#"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+
+      <div class="handle">
+        <a href="#"
+          ><i class="fa fa-twitter"></i
+        ></a>
+      </div>
+
+      <div class="handle">
+        <a href="#"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+  </body>
 </html>

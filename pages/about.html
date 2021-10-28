@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+   @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
   *{
     margin: 0;
     padding: 0;
@@ -72,15 +73,36 @@
    }
    
    .des-col{
-    background-color:#aaa;
+    background-color:rgb(255, 255, 255);
     width: 50%; 
     margin: 5px; 
     padding: 10px; 
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     border-radius: 8px;
     height: 300px;
 
    }
+   .About-us{
+     color: green;
+     padding: 4px;
+     margin-left: 5px;
+
+   }
+   .elementer-heading{
+     color: green;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'K2D', sans-serif;
+
+   }
+   .elementer-content{
+     color: black;
+     font-family: 'K2D', sans-serif;
+     font-size: 20px;
+     font-weight: normal;
+     
+   }
+
    </style>
         </head>
         <body>
@@ -91,16 +113,29 @@
                 <a href="#">Contact</a>
                 <a href="#">Events</a>
             </div>
+            <div class="About-us About-us">
     <h1>About Us</h1>
+  </div>
         <div class= "row description" style="display: flex;">
             <div class="column des-col" >
-            <h2>message1</h2>
-            <p>text...</p>
+              <div class="elementer-heading elementer-heading">
+                <h2>Indreni OpenSource Club</h2>
+              </div>
+            <div class="elementer-content elementer-content">
+            <p>
+              Indreni Open Source Club is a congregation of Indrenians’ came 
+              with the purpose of upholding Open Source spirit among colleagues.
+               Conducting events/seminars as well as workshops focusing on open-source 
+               technologies and platforms are the main activities one get to be a part in 
+               IOSC’s surrounding. Along with these, we also celebrate Software Freedom
+                Day and events like Hacktoberfest with the presence of all Open Source geeks.
+            </p>
+          </div>
             </div>
              <div class="column des-col" >
-              <h2>message2</h2>
-              <p>text...</p>
-        </div>
+             <!-- <img src="iosc-logo.png"> -->
+             <img src="iosc-logo.png" height="90%" width="auto ">
+             </div>
         </div>
         <!-- social media icons practice -->
     <div class="socialmediaicons" style="margin-top: 10px;" >

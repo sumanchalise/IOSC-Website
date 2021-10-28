@@ -13,6 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
     .fa {
     padding: 15px;
     font-size: 15px;
@@ -66,6 +70,17 @@
        background-color: #4e36a5;
        color:rgb(255, 255, 255);
    }
+   
+   .des-col{
+    background-color:#aaa;
+    width: 50%; 
+    margin: 5px; 
+    padding: 10px; 
+    border: 1px solid red; 
+    border-radius: 8px;
+    height: 300px;
+
+   }
    </style>
         </head>
         <body>
@@ -76,11 +91,19 @@
                 <a href="#">Contact</a>
                 <a href="#">Events</a>
             </div>
-            
-
-        <h1>About Us</h1>
+    <h1>About Us</h1>
+        <div class= "row description" style="display: flex;">
+            <div class="column des-col" >
+            <h2>message1</h2>
+            <p>text...</p>
+            </div>
+             <div class="column des-col" >
+              <h2>message2</h2>
+              <p>text...</p>
+        </div>
+        </div>
         <!-- social media icons practice -->
-    <div class="socialmediaicons">
+    <div class="socialmediaicons" style="margin-top: 10px;" >
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-linkedin"></a>

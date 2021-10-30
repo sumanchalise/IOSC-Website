@@ -3,15 +3,18 @@
   <head>
     <title>Contact Us- IOSC</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
-        * {
+      @import url("https://fonts.googleapis.com/css2?family=K2D&display=swap");
+      * {
         margin: 0;
-            padding: 0;
-            }
-      h1 {
+        padding: 0;
+      }
+      /* .titleInContact {
         text-align: center;
         vertical-align: bottom;
-      }
+        font-family: "K2D", sans-serif;
+        font-size: 75px;
+        color: rgb(250, 40, 40);
+      } */
       /* #menu {
         background-color: rgb(97, 197, 247);
         color: rgb(214, 214, 214);
@@ -30,15 +33,14 @@
       #menu li:hover {
         color: rgb(129, 38, 240);
       } */
-     .ul {
+      .ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-
       }
 
-      .li{
-          display: inline;
+      .li {
+        display: inline;
       }
 
       .social-media {
@@ -74,18 +76,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
   </head>
 
   <body>
-    <h1
-      style="
-       font-family: 'K2D', sans-serif;
-        font-size: 75px;
-        color: rgb(250, 40, 40);"
-    >
-      IOSC
-    </h1>
+    <h1 class="titleInContact">IOSC</h1>
 
     <ul id="menu">
       <a href="../index.html"><li>Home</li></a>
@@ -96,41 +90,38 @@
 
     <h1
       style="
-       font-family: 'K2D', sans-serif;
-        font-size: 55px; "
+        font-family: 'K2D', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        font-weight: ;
+      "
     >
       Get in touch
     </h1>
-    <div class="social-media">
+    <div class="social-media" style="margin-top: -120px">
       <div class="handle">
         <a href="mailto:iosc@indrenicollege.edu.np" target="_blank"
-          ><i class="fa fa-envelope"></i
+          ><i class="fa fa-envelope" title="E-Mail"></i
         ></a>
       </div>
 
       <div class="handle">
         <a href="#" target="_blank"
-          ><i class="fa fa-facebook"></i
-
+          ><i class="fa fa-facebook" title="Facebook"></i
         ></a>
       </div>
 
       <div class="handle">
-        <a href="#"
-          ><i class="fa fa-instagram"></i
-        ></a>
+        <a href="#"><i class="fa fa-instagram" title="Instagram"></i></a>
       </div>
 
       <div class="handle">
-        <a href="#"
-          ><i class="fa fa-twitter"></i
-        ></a>
+        <a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
       </div>
 
       <div class="handle">
-        <a href="#"
-          ><i class="fa fa-linkedin"></i
-        ></a>
+        <a href="#"><i class="fa fa-linkedin" title="Linkedin"></i></a>
       </div>
+    </div>
   </body>
 </html>

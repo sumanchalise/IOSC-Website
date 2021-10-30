@@ -1,69 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
 
-    <title>Events- IOSC</title>
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=K2D&display=swap");
-      * {
-        margin: 0;
-        padding: 0;
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+  }
+    .fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+   
+   .topnav {
+       overflow: hidden;
+       background-color:#333;
+   }
+   .topnav a {
+       float: left;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 14px 20px;
+       font-size: 15px;
+       text-decoration: none;
+   }
+   .topnav a:hover{
+       background-color: #f3138e;
+       color:rgb(255, 255, 255);
+   }
+   
+   .des-col{
+    background-color:rgb(255, 255, 255);
+    width: 50%; 
+    margin: 5px; 
+    padding: 10px; 
+    /* border: 1px solid red;  */
+    border-radius: 8px;
+    height: 300px;
+    /* text-align: center; */
+
+   }
+   .Events{
+     color: green;
+     padding: 4px;
+     margin-left: 5px;
+
+   }
+   .elementer-heading{
+     color: rgb(203, 243, 24);
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'K2D', sans-serif;
+
+   }
+   .elementer-content{
+     color: black;
+     font-family: 'K2D', sans-serif;
+     font-size: 20px;
+     font-weight: normal;
+     
+   }
+   .social-media {
+        height: 50vh;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        gap: 15px;
+        grid-auto-flow: column;
       }
-      /* h1 {
+      .social-media .handle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #fff;
         text-align: center;
-      } */
-    </style>
-
-    <link rel="stylesheet" href="../assets/css/style.css" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-
-  <body>
-    <h1
-      style="
-        font-family: 'K2D', sans-serif;
-        font-size: 75px;
-        color: rgb(245, 167, 167);
-      "
-    >
-      IOSC
-    </h1>
-
-    <ul id="menu">
-      <a href="index.html"><li>Home</li></a>
-      <a href="pages/events.html"><li>Posts/Events</li></a>
-      <a href="pages/contact.html"><li>Contacts</li></a>
-      <a href="pages/about.html"><li>About us</li></a>
-    </ul>
-    <center><strong><span style="font-family: 'Times New Roman', Times, serif;">
-      <h1> Hacktober-Fest</h1></span></strong><strong></strong></center>
-             <!-- <img src="iosc-logo.png"> -->
-        <img src="../assets/images/hacfes.png" style="height: 50%; width: 50%; text-align: right;">
-        <div class="col-span-3 space-y-8" data-v-cfbd4ff6="">
-          <p class="description text-dgreen leading-loose" data-v-cfbd4ff6="">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hacktoberfest, in its 8th year, &nbsp;is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>&nbsp;<div class="ml-5 space-y-5" data-v-cfbd4ff6="">
-              <ul>
-                  <li data-v-cfbd4ff6="">Prepare and share your project for collaboration</li>
-              </ul>&nbsp;<ul>
-                  <li data-v-cfbd4ff6="">Contribute to the betterment of a project via pull requests</li>
-              </ul>&nbsp;<ul>
-                  <li data-v-cfbd4ff6="">Organize an event</li>
-              </ul>&nbsp;<ul>
-                  <li data-v-cfbd4ff6="">Mentor others</li>
-              </ul>&nbsp;<ul>
-                  <li data-v-cfbd4ff6="">Donate directly to open source projects</li>
-              </ul>
+        transition: 0.5s;
+        transform: translate(0, 0px);
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+      }
+      .social-media div .fa {
+        color: #000;
+        font-size: 25px;
+        line-height: 30px;
+        transition: 0.5s;
+      }
+   </style>
+        </head>
+        <body>
+            <!-- nav practice -->
+            <div class="topnav">
+              <a href="../index.html"><li>Home</li></a>
+              <a href="events.html"><li>Posts/Events</li></a>
+              <a href="contact.html"><li>Contacts</li></a>
+              <a href="about.html"><li>About us</li></a>
+            </div>
+            <div class="About-us About-us">
+    <h1>Events</h1>
+  </div>
+        <div class= "row description" style="display: flex;">
+          <div class="column des-col" >
+            <div class="elementer-heading elementer-heading">
+              <h2>Hactober-Fest</h2>
+            </div>
+            <div class="elementer-content elementer-content">
+              <p>
+              Hacktoberfest, in its 8th year, is a month-long celebration of open source software run 
+              by DigitalOcean. During the month of October, we invite you to join open-source software 
+              enthusiasts, beginners, and the developer community by contributing to open-source projects.
+              <br>
+              <a href="https://hacktoberfest.digitalocean.com/">Visit Hactober-Fest</a> 
+              </p>
+            </div>
           </div>
-      </div>
-      ...
-  </body>
+            <div class="column des-col" >
+             <!-- <img src="iosc-logo.png"> -->
+             <img src="../assets/images/hacfes.jpg" style="height: 100%; width: auto; text-align: center;">
+            </div>
+        </div>
+        
+        <!-- social media icons practice -->
+      <!--
+        <div class="social-media">
+        <div class="handle">
+          <a href="mailto:iosc@indrenicollege.edu.np" target="_blank"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </div>
+  
+        <div class="handle">
+          <a href="#" target="_blank"
+            ><i class="fa fa-facebook"></i
+  
+          ></a>
+        </div>
+  
+        <div class="handle">
+          <a href="#"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </div>
+  
+        <div class="handle">
+          <a href="#"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </div>
+  
+        <div class="handle">
+          <a href="#"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+    </div>
+      -->
+
+</body>
 </html>

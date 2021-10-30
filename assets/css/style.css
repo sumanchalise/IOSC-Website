@@ -1,11 +1,12 @@
-#menu {
+/* topnav of contacts and index */
+#topnav {
   background-color: rgb(62, 70, 74);
   color: #fff;
   height: 32px;
   padding-top: 5px;
 }
 
-#menu li {
+#topnav li {
   display: inline-block;
   color: white;
   font-family: "K2D", sans-serif;
@@ -14,19 +15,25 @@
   text-align: center;
 }
 
-#menu li:hover {
+#topnav li:hover {
   color: rgb(250, 136, 60);
   background-color: rgb(241, 241, 241);
 }
 
-#menu .currentPage {
+#topnav .currentPage {
   color: rgb(13, 226, 116);
 }
 
-.detail {
+/* paragraph's heading's class name is p-heading */
+.p-heading {
   font-family: "K2D", sans-serif;
+  font-size: 25;
+  padding-top: 50px;
+  padding-left: 16px;
+  text-align: left;
 }
 
+/* Top title of the contact page: */
 .titleInContact {
   text-align: center;
   vertical-align: bottom;

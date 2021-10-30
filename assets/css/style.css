@@ -1,6 +1,6 @@
 #menu {
-  background-color: rgb(50, 168, 226);
-  color: white;
+  background-color: rgb(62, 70, 74);
+  color: #fff;
   height: 32px;
   padding-top: 5px;
 }
@@ -8,12 +8,29 @@
 #menu li {
   display: inline-block;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "K2D", sans-serif;
   width: 100px;
   height: 32px;
   text-align: center;
 }
 
 #menu li:hover {
-  color: rgb(38, 240, 220);
+  color: rgb(250, 136, 60);
+  background-color: rgb(241, 241, 241);
+}
+
+#menu .currentPage {
+  color: rgb(13, 226, 116);
+}
+
+.detail {
+  font-family: "K2D", sans-serif;
+}
+
+.titleInContact {
+  text-align: center;
+  vertical-align: bottom;
+  font-family: "K2D", sans-serif;
+  font-size: 75px;
+  color: rgb(250, 40, 40);
 }

@@ -15,14 +15,14 @@
         font-size: 75px;
         color: rgb(250, 40, 40);
       } */
-      /* #menu {
+      /* #topnav {
         background-color: rgb(97, 197, 247);
         color: rgb(214, 214, 214);
         height: 32px;
         padding-top: 5px;
       }
  
-      #menu li {
+      #topnav li {
         display: inline-block;
         width: 100px;
         height: 32px;
@@ -30,9 +30,40 @@
         font-family: 'K2D', sans-serif;
       }
 
-      #menu li:hover {
+      #topnav li:hover {
         color: rgb(129, 38, 240);
       } */
+
+      .facebook:hover {
+        background: #3b5998;
+        color: white;
+        border-radius: 45%;
+      }
+
+      .twitter:hover {
+        background: #55acee;
+        color: white;
+        border-radius: 45%;
+      }
+
+      .linkedin:hover {
+        background: #007bb5;
+        color: white;
+        border-radius: 45%;
+      }
+
+      .envelope:hover {
+        background: #da6e0a;
+        color: white;
+        border-radius: 45%;
+      }
+
+      .instagram:hover {
+        background: #f03170;
+        color: white;
+        border-radius: 45%;
+      }
+
       .ul {
         list-style-type: none;
         margin: 0;
@@ -54,7 +85,7 @@
       .social-media .handle {
         width: 60px;
         height: 60px;
-        border-radius: 50%;
+        border-radius: 45%;
         background: #fff;
         text-align: center;
         transition: 0.5s;
@@ -81,7 +112,7 @@
   <body>
     <h1 class="titleInContact">IOSC</h1>
 
-    <ul id="menu">
+    <ul id="topnav">
       <a href="../index.html"><li>Home</li></a>
       <a href="events.html"><li>Posts/Events</li></a>
       <a href="pages/contact.html"><li class="currentPage">Contacts</li></a>
@@ -93,34 +124,45 @@
         font-family: 'K2D', sans-serif;
         font-size: 55px;
         text-align: center;
-        font-weight: ;
+        font-weight: none;
+        margin-top: auto;
       "
     >
       Get in touch
     </h1>
     <div class="social-media" style="margin-top: -120px">
       <div class="handle">
-        <a href="mailto:iosc@indrenicollege.edu.np" target="_blank"
-          ><i class="fa fa-envelope" title="E-Mail"></i
-        ></a>
+        <div class="envelope">
+          <a href="mailto:iosc@indrenicollege.edu.np" target="_blank"
+            ><i class="fa fa-envelope" title="E-Mail"></i
+          ></a>
+        </div>
       </div>
 
       <div class="handle">
-        <a href="#" target="_blank"
-          ><i class="fa fa-facebook" title="Facebook"></i
-        ></a>
+        <div class="facebook">
+          <a href="#" target="_blank"
+            ><i class="fa fa-facebook" title="Facebook"></i
+          ></a>
+        </div>
       </div>
 
       <div class="handle">
-        <a href="#"><i class="fa fa-instagram" title="Instagram"></i></a>
+        <div class="instagram">
+          <a href="#"><i class="fa fa-instagram" title="Instagram"></i></a>
+        </div>
       </div>
 
       <div class="handle">
-        <a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+        <div class="twitter">
+          <a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+        </div>
       </div>
 
       <div class="handle">
-        <a href="#"><i class="fa fa-linkedin" title="Linkedin"></i></a>
+        <div class="linkedin">
+          <a href="#"><i class="fa fa-linkedin" title="Linkedin"></i></a>
+        </div>
       </div>
     </div>
   </body>

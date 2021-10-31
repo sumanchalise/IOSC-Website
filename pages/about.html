@@ -73,14 +73,25 @@
        color:rgb(255, 255, 255);
    }
    
-   .des-col{
-    background-color:rgb(255, 255, 255);
+   .des-col1{
+    /* background-color:yellow; */
     width: 50%; 
     margin: 5px; 
     padding: 10px; 
     /* border: 1px solid red;  */
     border-radius: 8px;
-    height: 300px;
+    height: 480px;
+    /* text-align: center; */
+
+   }
+   .des-col2{
+    /* background-color:gray; */
+    width: 50%; 
+    margin: 5px; 
+    padding: 10px; 
+    /* border: 1px solid red;  */
+    border-radius: 8px;
+    height: 480px;
     /* text-align: center; */
 
    }
@@ -114,7 +125,9 @@
       justify-content: center;
       gap: 15px;
       grid-auto-flow: column;
-      display: block;     
+     position: fixed;
+     bottom: 0px;
+     right: 40%;      
     }
     .button {
   border: none;
@@ -130,13 +143,16 @@
 .button:hover{
   opacity: 0.8;
 }
+/* .container{
+  display: flex;
+} */
 
    </style>
         </head>
         <body>
             <!-- nav practice -->
             <div class="topnav">
-              <a href="../index.html">Home</a>
+              <a href="./index.html">Home</a>
               <a href="events.html">Posts/Events</a>
               <a href="pages/contact.html">Contacts</a>
               <a href="about.html">About us</a>        
@@ -144,8 +160,9 @@
              <div class="About-us About-us">
               <h1>About Us</h1>
             </div>
-          <div class= "row description" style="display: flex;">
-              <div class="column des-col" >
+            <div class="container">
+          <div class= "row description" style="display: flex; width: 100%; height: 80vh;">
+              <div class="column des-col1" >
               <div class="elementer-heading elementer-heading">
                 <h2>Indreni OpenSource Club</h2><br>
               </div>
@@ -163,12 +180,42 @@
              </div>
             
           </div>
-             <div class="column des-col" >
+             <div class="column des-col1" >
              <!-- <img src="iosc-logo.png"> -->
-             <img src="../assets/images/iosc-logo.png" style="height: 100%; width: auto; text-align: center;">
+             <img src="../assets/images/iosc-logo.png" style="height: 100%; width: auto; 
+             padding-left: 70px; text-align: center;">
              </div>
         </div>
-              
+        <div class= "row description" style="display: flex; width: 100%; height: 100vh;">
+          <div class="column des-col2" >
+            <!-- <img src="iosc-logo.png"> -->
+            <img src="../assets/images/Open-source-customization.png" style="height: 100%; 
+            width: auto; padding-left: 70px; text-align: center;">
+            </div>
+          <div class="column des-col2" >
+          <div class="elementer-heading elementer-heading">
+            <h2>What is OpenSource?</h2>
+          </div>
+          <br>
+        <div class="elementer-content elementer-content">
+        <p>
+          The term originated in the context of software development to 
+          designate a specific approach to creating computer programs. 
+          Today, however, “open source” designates a broader set of values-
+          what we call “the open source way.” Open source projects, products,
+          or initiatives embrace and celebrate principles of open exchange, 
+          collaborative participation, rapid prototyping, transparency,
+          meritocracy, and community-oriented development.
+        </p>  
+        <br>
+        <button class="button">Explore More</button>       
+         </div>
+        
+      </div>
+        
+    </div>
+    </div>
+       
         <!-- social media icons practice -->
     <div class="socialmediaicons" style="margin-top: 10px;" >
         <a href="https://www.facebook.com/"target="_blank" class="fa fa-facebook"></a>

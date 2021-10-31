@@ -67,7 +67,7 @@
        padding: 14px 20px;
        font-size: 15px;
        text-decoration: none;
-   }
+       }
    .topnav a:hover{
        background-color: #4e36a5;
        color:rgb(255, 255, 255);
@@ -86,26 +86,50 @@
    }
    .About-us{
      color: green;
-     padding: 4px;
-     margin-left: 5px;
+     padding: 10px;
+     margin-left: 10px;
+     font-size: 25px;
 
    }
    .elementer-heading{
      color: green;
-     font-size: 25px;
+     font-size: 28px;
      font-weight: bold;
      font-family: 'K2D', sans-serif;
+     padding-left: 30px;
 
    }
    .elementer-content{
      color: black;
      font-family: 'K2D', sans-serif;
-     font-size: 20px;
+     font-size: 25px;
      font-weight: normal;
-     padding: 10px;
-     padding-left: 20px;
-     
+     padding: 10px 10px 10px 30px;
+            
    }
+   .socialmediaicons{
+      height: 50px;
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      gap: 15px;
+      grid-auto-flow: column;
+      display: block;     
+    }
+    .button {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: green;
+  border-radius: 10px;
+}
+.button:hover{
+  opacity: 0.8;
+}
 
    </style>
         </head>
@@ -118,12 +142,12 @@
               <a href="about.html">About us</a>        
              </div>
              <div class="About-us About-us">
-             <h1>About Us</h1>
-               </div>
-              <div class= "row description" style="display: flex;">
-            <div class="column des-col" >
+              <h1>About Us</h1>
+            </div>
+          <div class= "row description" style="display: flex;">
+              <div class="column des-col" >
               <div class="elementer-heading elementer-heading">
-                <h2>Indreni OpenSource Club</h2>
+                <h2>Indreni OpenSource Club</h2><br>
               </div>
             <div class="elementer-content elementer-content">
             <p>
@@ -133,21 +157,25 @@
                technologies and platforms are the main activities one get to be a part in 
                IOSC’s surrounding. Along with these, we also celebrate Software Freedom
                 Day and events like Hacktoberfest with the presence of all Open Source geeks.
-            </p>
+            </p>  
+            <br>
+            <button class="button">Explore More</button>       
+             </div>
+            
           </div>
-            </div>
              <div class="column des-col" >
              <!-- <img src="iosc-logo.png"> -->
              <img src="../assets/images/iosc-logo.png" style="height: 100%; width: auto; text-align: center;">
              </div>
         </div>
+              
         <!-- social media icons practice -->
     <div class="socialmediaicons" style="margin-top: 10px;" >
         <a href="https://www.facebook.com/"target="_blank" class="fa fa-facebook"></a>
         <a href="https://www.twitter.com/"target="_blank"class="fa fa-twitter"></a>
-        <a href="https://www.linkedin.com/"target="_blank"" class="fa fa-linkedin"></a>
-        <a href="https://www.youtube.com/"target="_blank"" class="fa fa-youtube"></a>
-        <a href="https://www.instagram.com/"target="_blank"" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/"target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/"target="_blank" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/"target="_blank" class="fa fa-instagram"></a>
     </div>
 </body>
 
